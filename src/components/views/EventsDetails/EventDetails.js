@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './EventsDetails.module';
+import styles from './EventDetails.module.scss';
 
-const EventsDetails = () => (
+const EventDetails = () => (
   <div className = {styles.component}>
     <h2>EventsDetails view</h2>
   </div>
 );
 
-export default EventsDetails;
+export default EventDetails;

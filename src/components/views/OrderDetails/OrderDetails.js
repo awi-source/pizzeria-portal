@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './OrderDetails.module';
+import styles from './OrderDetails.module.scss';
 
 const OrderDetails = () => (
   <div className = {styles.component}>
