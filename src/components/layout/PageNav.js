@@ -13,6 +13,7 @@ const PageNav = () => (
       Tables </NavLink>
     <NavLink to={`${process.env.PUBLIC_URL}/kitchen`} activeClassName='active'>
       Kitchen </NavLink>
+    
   </nav>
 );
 
