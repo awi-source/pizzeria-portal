@@ -18,17 +18,17 @@ function App() {
     <BrowserRouter>
       <MainLayout>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + '/'} component={Login} />
-          <Route exact path={process.env.PUBLIC_URL + '/dashboard'} component={Dashboard} />
-          <Route exact path={process.env.PUBLIC_URL + '/waiter'} component={Waiter} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables'} component={Tables} />
-          <Route exact path={process.env.PUBLIC_URL + '/kitchen'} component={Kitchen} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables/booking/:id'} component={Booking} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables/booking/new'} component={NewBooking} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables/events/:id'} component={EventDetails} />
-          <Route exact path={process.env.PUBLIC_URL + '/tables/events/new'} component={NewEvent} />
-          <Route exact path={process.env.PUBLIC_URL + '/waiter/order/new'} component={NewOrder} />
-          <Route exact path={process.env.PUBLIC_URL + '/waiter/order/:id'} component={OrderDetails} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Login} />
+          <Route exact path={`${process.env.PUBLIC_URL}/dashboard`} component={Dashboard} />
+          <Route exact path={`${process.env.PUBLIC_URL}/waiter`} component={Waiter} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables`} component={Tables} />
+          <Route exact path={`${process.env.PUBLIC_URL}/kitchen`} component={Kitchen} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/booking/new`} component={NewBooking} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/booking/:id`} component={Booking} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/events/new`} component={NewEvent} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/events/:id`} component={EventDetails} />
+          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/new`} component={NewOrder} />
+          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/:id`} component={OrderDetails} />
         </Switch>
       </MainLayout>
     </BrowserRouter>
